@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background: #0099cc;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Rooms */
+.rooms {
+    padding: 40px;
+    text-align: center;
+}
+
+.room-card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+.room-card button {
+    padding: 8px 15px;
+    background: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Booking */
+.booking {
+    padding: 40px;
+    background: white;
+    text-align: center;
+}
+
+.booking form input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+}
+
+.booking button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.hotel-img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
